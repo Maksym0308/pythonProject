@@ -37,8 +37,8 @@ Let's throw in some random sentences for good measure:
 """
 
 def use_re():
-    mail = re.findall(r'([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})', text)
-    print(mail)
+    urls = re.findall(r'(https?://[^\s]+|www\.[^\s]+|ftp://[^\s]+)', text)
+    print(urls)
 
     phone_numbers = re.findall(r'(?:\+?\d{1,3}[\s-]?)?(?:\(?\d{3}\)?[\s-]?)\d{3}[\s-]?\d{4}', text)
     print(phone_numbers)
