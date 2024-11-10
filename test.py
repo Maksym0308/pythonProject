@@ -199,7 +199,7 @@ print(result)
 
 /opt/homebrew/bin/git
 /opt/homebrew/opt/git
-
+print
 
 
 
