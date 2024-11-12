@@ -1,4 +1,4 @@
-import requests
+import job_vacancies
 from bs4 import BeautifulSoup
 
 
